@@ -1,0 +1,39 @@
+.layui-body {
+    overflow-y: hidden !important;
+}
+
+.layui-this,
+.layui-this>a {
+    background-color: rgb(78, 145, 16) !important;
+}
+
+.layui-tab-title>.layui-this {
+    border-radius: 5px;
+}
+
+.layui-this>span {
+    color: white;
+}
+
+.layui-nav-bar {
+    display: none;
+}
+
+hr {
+    margin: 0;
+    background-color: gray;
+}
+
+.layui-header,
+.leftMenu,
+.layui-side {
+    background-color: #1d193a !important;
+}
+
+.leftMenu>.layui-nav-item:nth-child(1) {
+    border-top: 1px solid gainsboro;
+}
+
+.leftMenu>.layui-nav-item {
+    border-bottom: 1px solid gainsboro;
+}
